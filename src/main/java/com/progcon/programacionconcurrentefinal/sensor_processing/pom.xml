@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Heredamos la configuración del proyecto padre -->
+    <parent>
+        <groupId>com.progcon.programacionconcurrentefinal</groupId>
+        <artifactId>programacionconcurrentefinal</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <!-- Identificador único del módulo -->
+    <artifactId>sensor_processing</artifactId>
+
+    <dependencies>
+        <!-- Starter de Spring Boot Batch para el procesamiento por lotes -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
+        </dependency>
+        <!-- Starter básico de Spring Boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
