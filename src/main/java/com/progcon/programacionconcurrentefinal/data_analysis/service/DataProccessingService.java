@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 @Service
-public class DataProcessingService {
+public class DataProccessingService {
 
     private ExecutorService executorService;
 

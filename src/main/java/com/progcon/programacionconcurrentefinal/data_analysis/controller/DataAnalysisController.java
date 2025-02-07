@@ -1,6 +1,6 @@
 package com.progcon.programacionconcurrentefinal.data_analysis.controller;
 
-import com.progcon.programacionconcurrentefinal.data_analysis.service.DataProcessingService;
+import com.progcon.programacionconcurrentefinal.data_analysis.service.DataProccessingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,9 +13,9 @@ import java.util.stream.Collectors;
 @RestController
 public class DataAnalysisController {
 
-    private final DataProcessingService dataProcessingService;
+    private final DataProccessingService dataProcessingService;
 
-    public DataAnalysisController(DataProcessingService dataProcessingService) {
+    public DataAnalysisController(DataProccessingService dataProcessingService) {
         this.dataProcessingService = dataProcessingService;
     }
 
